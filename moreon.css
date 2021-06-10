@@ -1,0 +1,863 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.header {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.head {
+    overflow: hidden;
+    border-bottom: solid 1px #e8e8e8;
+    padding-bottom: 5px;
+}
+
+.logo {
+    float: left;
+    padding-left: 7px;
+}
+
+.logo img {
+    width: 242px;
+    height: 45px;
+}
+
+.city {
+    float: left;
+}
+
+.city img {
+    height: 13px;
+    width: 10px;
+    padding-top: 16px;
+    padding-left: 27px;
+}
+
+.city span {
+    font-family: "Open Sans - Semi Bold", sans-serif;
+    font-size: 13.5px;
+    font-weight: 400;
+    color: #7c7c7c;
+    letter-spacing: 0.4px;
+}
+
+.city a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ff8400;
+    font-weight: 550;
+    font-family: "Open Sans - Semi Bold", sans-serif;
+    padding-left: 3px;
+    letter-spacing: 0.2px;
+}
+
+.call {
+    float: right;
+    padding-top: 5px;
+    padding-right: 16px;
+}
+
+.connection {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    color: #ff8400;
+    font-family: "Open Sans - Semi Bold", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.notice {
+    float: left;
+}
+
+.number {
+    color: #333333;
+    font-family: "Open Sans - Semi Bold", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 15px;
+}
+
+.title {
+    color: #7c7c7c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding-right: 16px;
+    text-align: right;
+    letter-spacing: 0.1px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15.5px;
+    font-weight: 550;
+    padding: 17px 15px;
+    display: inline-block;
+}
+
+.object a {
+    text-decoration: none;
+    color: #bb4d34;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 17px 20px;
+    display: inline-block;
+    letter-spacing: 0.01px;
+}
+
+.main {
+    display: flex;
+}
+
+.like {
+    background-image: url(img/heart.png);
+    height: 39px;
+    width: 32px;
+    background-position: center;
+    padding: 12px 0 7px;
+}
+
+.substrate {
+    background-image: url(img/orange.png);
+    height: 17px;
+    width: 17px;
+    float: right;
+    background-size: 17px;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+.comparison img {
+    height: 17px;
+    width: 17px;
+    padding: 20px 11px 7px;
+}
+
+.personal-cab img {
+    height: 37px;
+    width: 37px;
+    padding: 10px 16px 6px;
+}
+
+.about {
+    background-image: url(img/moreon-back.png);
+    background-color: #243045;
+    display: flex;
+    justify-content: space-around;
+    padding: 57px 270px 43px;
+}
+
+.about-us {
+    padding: 24px 0;
+}
+
+.test-drive {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.real-estate {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-test {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 0;
+    letter-spacing: -0.36px;
+    line-height: 23px;
+}
+
+.free {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 14px 0;
+}
+
+.free span {
+    color: #ff8400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.request {
+    padding: 26px 0;
+}
+
+.req {
+    width: 296px;
+    height: 42px;
+    border-radius: 3px;
+    background-color: #ff8400;
+    color: white;
+    font-family: "Open Sans - Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-color: transparent;
+    letter-spacing: 0.4px;
+}
+
+.moreon img {
+    height: 440px;
+    width: 583px;
+}
+
+.in-test-drive {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 0 0;
+    letter-spacing: 0.4px;
+}
+
+.time-heading h2 {
+    font-size: 30px;
+    padding: 50px 0 0;
+    letter-spacing: 0.4px;
+}
+
+.in-test-drive-object {
+    width: 220px;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    margin: 5px 15px;
+    padding: 30px 27px;
+}
+
+.in-test-drive-object div {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.in-test-drive-object span {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.in-test-drive-object img {
+    width: 58px;
+    margin-bottom: 10px;
+}
+
+.body-section-wrapper {
+    background-color: #f6f6f6;
+    margin-top: 38px;
+    padding-bottom: 38px;
+}
+
+.body-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.solve-issues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1210px;
+}
+
+.solve-issues div {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.solve-issues span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.in-one-place {
+    width: 25%;
+    margin: 0 0 30px 0;
+}
+
+.in-one-place img {
+    height: 160px;
+    padding: 3px 0 3px 0;
+    width: 275px;
+}
+
+.open-a-mortgage {
+    max-width: 720px;
+    margin: -15px 0 30px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.body-section-footer-wrapper {
+    background-color: #f6f6f6;
+    padding-bottom: 50px;
+}
+
+.body-section-footer-wrapper h2 {
+    font-size: 30px;
+    padding: 45px 0 0;
+    letter-spacing: 0.4px;
+}
+
+.outer-frame {
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 0 28px;
+}
+
+.map-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.map-navigation a {
+    text-decoration: none;
+    font-size: 15.5px;
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 0;
+    letter-spacing: 0.4px;
+}
+
+.map-navigation a span {
+    color: #7c7c7c;
+}
+
+.map-navigation a.active {
+    color: #ff8400;
+    font-family: "Open Sans - Semi Bold", sans-serif;
+}
+
+.map-content {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px 0;
+}
+
+.map-contact {
+    width: 295px;
+    height: 425px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+}
+
+.map {
+    background-position-x: -328px;
+    background-position-y: -11px;
+    background-image: url(img/map1.png);
+    width: 845px;
+    height: 427px;
+}
+
+.office-on-east {
+    width: 240px;
+    height: 180px;
+    padding: 23px 29px 0;
+}
+
+.office-on-east div {
+    color: #333333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0 5px 0;
+}
+
+.office-on-east span {
+    color: #7c7c7c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.phone-number {
+    font-size: 19px;
+    padding: 33px 0 0 67px;
+    font-weight: 600;
+}
+
+.tell-me {
+    width: 220px;
+    height: 42px;
+    border-radius: 3px;
+    background-color: #ff8400;
+    border-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    margin: 15px 0 0 38px;
+}
+
+.tell-me img {
+    margin: 0 5px 0 0;
+}
+
+.work-grafic {
+    padding: 20px 0 0 0;
+}
+
+.back-home {
+    display: flex;
+    justify-content: space-around;
+}
+
+.back-home .back-main-menu {
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    width: 93%;
+    height: 40px;
+    margin: 0 30px 0 0;
+    display: flex;
+}
+
+.back-home .back-main-menu img {
+    padding: 10px;
+    display: block;
+}
+
+.back-home .back-main-menu div {
+    padding: 10px 5px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.back-home .up {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #e2e2e2;
+}
+
+.back-home .up img {
+    padding: 13px;
+}
+
+.back-home div span {
+    color: #7c7c7c;
+    font-size: 13.5px;
+}
+
+.footer-wrapper {
+    background-color: #333333;
+}
+
+.footer {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-top: 11px;
+}
+
+.footer .head {
+    padding-bottom: 15px;
+    border-color: #2a2a2a;
+}
+
+.footer .logo img {
+    height: 20px;
+    width: 222px;
+    padding: 13px 10px;
+}
+
+.social-network {
+    float: left;
+    display: flex;
+    padding: 7px 32px;
+}
+
+.footer .social-network a {
+    background-color: #2a2a2a;
+    display: block;
+    margin: 0 3px;
+}
+
+.footer .social-network img {
+    padding: 9px;
+}
+
+.footer .notice .number {
+    color: #ffffff;
+}
+
+.footer .notice .title {
+    color: #9f9f9f;
+}
+
+.general-activity {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.general-activity div ul li {
+    list-style-type: none;
+}
+
+.general-activity div ul {
+    padding-inline-start: unset;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 27px;
+}
+
+.general-activity a {
+    text-decoration: none;
+    color: #d6d6d6;
+}
+
+.general-activity div h4 {
+    color: #ff8400;
+    margin: 10px 0 0;
+}
+
+.footer-wrapper .description {
+    font-size: 12px;
+    color: #888888;
+    border-bottom: solid 1px #2a2a2a;
+    padding: 15px 0 27px;
+}
+
+.footer-wrapper .description div {
+    max-width: 80%;
+}
+
+.footer-wrapper .privacy {
+    overflow: hidden;
+    padding: 15px 0 20px;
+}
+
+.footer-wrapper .privacy .moreon-invest {
+    float: left;
+    color: #c6c6c6;
+    font-size: 13px;
+    padding: 1px 17px;
+}
+
+.footer-wrapper .privacy .privacy-policy {
+    float: right;
+    font-size: 13px;
+}
+
+.footer-wrapper .privacy .privacy-policy a {
+    text-decoration: none;
+    color: #ff8400;
+    margin: 0 20px 0 25px;
+}
+
+.main-menu {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    .moreon img {
+        display: none;
+    }
+    .about {
+        padding: 0 10px 0;
+    }
+    .about-us {
+        padding: 28px 0;
+    }
+    .test-drive {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .real-estate {
+        font-size: 22px;
+        padding: 4px 0;
+    }
+    .about-test {
+        font-size: 13px;
+        padding: 5px 0;
+        letter-spacing: 0.64px;
+        line-height: 18px;
+    }
+    .free {
+        font-size: 18px;
+        padding: 17px 0 22px;
+        letter-spacing: 0.3px;
+        max-width: 90%;
+    }
+    .free span {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .request {
+        padding: 3px 0 2px;
+    }
+    .req {
+        width: 100%;
+    }
+    h2 {
+        font-size: 21.5px;
+        padding: 6px 9px 0;
+    }
+    .body-section-mobile-padding h2 {
+        padding: 6px 0 0;
+        margin-bottom: 4px;
+    }
+    .in-test-drive-object {
+        width: 85%;
+        margin: 0 9px 12px;
+        padding: 7px 14px;
+    }
+    .in-test-drive-object div {
+        padding-top: 4px;
+        padding-bottom: 7px;
+    }
+    .in-test-drive-object img {
+        width: 19%;
+        margin-bottom: 0;
+    }
+    .body-section-wrapper {
+        margin-top: 46px;
+        padding-bottom: 24px;
+    }
+    .time-heading h2 {
+        font-size: 21.5px;
+        padding: 20px 9px 0;
+    }
+    .open-a-mortgage {
+        margin: unset;
+        line-height: 23px;
+        font-size: 13.5px;
+        letter-spacing: 0.4px;
+        margin-bottom: 15px;
+    }
+    .in-one-place {
+        margin: 0 0 26px 0;
+        width: 100%;
+    }
+    .in-one-place img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .solve-issues {
+        flex-direction: column;
+    }
+    .solve-issues div {
+        font-size: 16px;
+    }
+    .solve-issues span {
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+    .body-section-footer-wrapper h2 {
+        font-size: 21.5px;
+        padding: 14px 8px 0;
+        margin: unset;
+    }
+    .in-test-drive {
+        flex-direction: column;
+    }
+    .map-navigation {
+        overflow: auto;
+        padding: 0 10px;
+        background-color: #f6f6f6;
+    }
+    .map-navigation a {
+        white-space: nowrap;
+        font-size: 13.5px;
+        padding: 10px 10px;
+    }
+    .map-content {
+        flex-direction: column-reverse;
+        margin: 0 0 48px 0;
+    }
+    .map-contact{
+        width: 100%;
+        border: none;
+        height: unset;
+    }
+    .phone-number {
+        font-size: 20px;
+        padding: 33px 0 0 75px;
+    }
+    .tell-me {
+        width: 95%;
+        margin: 15px 7px;
+    }
+    .office-on-east {
+        height: unset;
+    }
+    .map {
+        background-position-x: -590px;
+        background-position-y: -10px;
+        width: 100%;
+        height: 47vh;
+    }
+    .back-home {
+        padding-bottom: 30px;
+    }
+    .back-home .back-main-menu {
+        width: 100%;
+        margin: unset;
+        height: unset;
+    }
+    .back-home .back-main-menu div {
+        padding: 10px 0;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .back-home .back-main-menu img {
+        height: 25px;
+    }
+    .back-home .up {
+        display: none;
+    }
+    .back-home div span {
+        display: block;
+        font-size: 14.5px;
+    }
+    .body-section-footer-wrapper {
+        padding-bottom: 0;
+    }
+    .outer-frame{
+        border: none;
+    }
+    .head .city,
+    .head .call,
+    .navigation .nav,
+    .navigation .object,
+    .personal-cab
+    {
+        display: none;
+    }
+    .footer .notice {
+        float: unset;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    .footer .notice .title {
+        text-align: center;
+        padding-right: unset;
+    }
+    .footer .logo {
+        float: unset;
+        text-align: center;
+        margin-top: 11px;
+    }
+    .logo img {
+        width: 152px;
+        height: 31px;
+        padding: 8px 0 0;
+    }
+    .mobile-menu {
+        margin: 3px 10px;
+        display: block;
+    }
+    .mobile-menu img {
+        border: 1px solid #e8e8e8;
+        padding: 12px 10px;
+    }
+    .like {
+        padding: 6px 4px 8px;
+    }
+    .comparison img {
+        padding: 15px 7px 7px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .general-activity {
+       display: none;
+    }
+    .body-section-mobile-padding {
+        width: 93%;
+        margin: 0 auto;
+    }
+    .footer {
+        padding-top: 7px;
+    }
+    .footer .logo img {
+        height: 3vh;
+        width: 65%;
+        padding: unset;
+        margin-bottom: 17px;
+    }
+    .social-network {
+        padding: unset;
+        float: unset;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #2a2a2a;
+        width: 100%;
+        justify-content: center;
+    }
+    .footer .head {
+        padding: 0 0;
+    }
+    .footer .number {
+        padding-right: unset;
+    }
+    .footer-wrapper .description div {
+        max-width: 100%;
+        padding: 0 5px;
+    }
+    .footer .head .call {
+        display: block;
+        padding: unset;
+        float: unset;
+        text-align: center;
+        margin-bottom: 21px;
+        margin-top: 18px;
+    }
+    .footer-wrapper .privacy .privacy-policy {
+        display: none;
+    }
+    .footer-wrapper .privacy .moreon-invest {
+        float: unset;
+        font-size: 15px;
+        text-align: center;
+    }
+}
